@@ -1,20 +1,24 @@
+var order = document.querySelector('.button7')
+
+
+
 $(document).ready(function(){
     $(".button1").click(function(){
         $(".form1").toggle();
       });
       $(".button2").click(function(){
-        $(".form").toggle();
+        $(".form2").toggle();
       });
       $(".button3").click(function(){
-        $(".form").toggle();
+        $(".form3").toggle();
       });
       $(".button4").click(function(){
-        $(".form").toggle();
+        $(".form4").toggle();
       });
       $(".button5").click(function(){
-        $(".form").toggle();
+        $(".form5").toggle();
       });
       $(".button6").click(function(){
-        $(".form").toggle();
+        $(".form6").toggle();
       });
 });

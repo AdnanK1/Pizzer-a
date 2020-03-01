@@ -173,6 +173,33 @@ body, html{
 .button7:hover{
     background-color: lawngreen;
 }
-.form{
+.form1{
     display: none;
+    background-color: #fff;
+    border-radius: 24px;
+}
+.form2{
+    display: none;
+    background-color: #fff;
+    border-radius: 24px;
+}
+.form3{
+    display: none;
+    background-color: #fff;
+    border-radius: 24px;
+}
+.form4{
+    display: none;
+    background-color: #fff;
+    border-radius: 24px;
+}
+.form5{
+    display: none;
+    background-color: #fff;
+    border-radius: 24px;
+}
+.form6{
+    display: none;
+    background-color: #fff;
+    border-radius: 24px;
 }
