@@ -28,3 +28,7 @@ body, html{
     padding: 20px;
     opacity: 0.67;
 }
+.middle{
+    text-align: center;
+    background-color: blanchedalmond;
+}
