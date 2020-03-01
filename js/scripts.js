@@ -1,3 +1,20 @@
 $(document).ready(function(){
-    
+    $(".button1").click(function(){
+        $(".form1").toggle();
+      });
+      $(".button2").click(function(){
+        $(".form").toggle();
+      });
+      $(".button3").click(function(){
+        $(".form").toggle();
+      });
+      $(".button4").click(function(){
+        $(".form").toggle();
+      });
+      $(".button5").click(function(){
+        $(".form").toggle();
+      });
+      $(".button6").click(function(){
+        $(".form").toggle();
+      });
 });

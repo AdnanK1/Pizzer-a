@@ -54,7 +54,7 @@ body, html{
 .footer{
     text-align: center;
 }
-.button{
+.button1{
     border: 0;
   background: none;
   display: block;
@@ -68,11 +68,111 @@ body, html{
   transition: 0.25s;
   cursor: pointer
 }
-.button:hover{
+.button1:hover{
     background-color: lawngreen;
-
 }
-
+.button2{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 24px;
+    color: #000;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: lawngreen;
+}
+.button3{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 24px;
+    color: #000;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.button3:hover{
+    background-color: lawngreen;
+}
+.button4{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 24px;
+    color: #000;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.button4:hover{
+    background-color: lawngreen;
+}
+.button5{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 24px;
+    color: #000;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.button5:hover{
+    background-color: lawngreen;
+}
+.button6{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 24px;
+    color: #000;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.button6:hover{
+    background-color: lawngreen;
+}
+.button7{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 24px;
+    color: #000;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.button7:hover{
+    background-color: lawngreen;
+}
 .form{
     display: none;
 }
