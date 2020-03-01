@@ -21,8 +21,10 @@
 		<div class="column pizza">
 			<div class="row">
 				<div class="col-md-4">
-					<img src="images/pizza1.jpg" alt="pizza1" width="300px" height="250px">
-					<div class="description">Vegeterian Pizza</div>
+					<button class="pImg1">
+						<img src="images/pizza1.jpg" alt="pizza1" width="300px" height="250px">
+						<div class="description">Vegeterian Pizza</div>
+					</button>
 				</div>
 				<div class="col-md-4">
 					<img src="images/pizza2.jpg" alt="pizza2" width="300px" height="250px">
@@ -46,6 +48,26 @@
 					<img src="images/pizza6.jpg" alt="pizza6" width="300px" height="250px">
 					<div class="description">BBQ Chicken Pizza</div>
 				</div>
+			</div>
+			<div class="modal">
+				<form class="form" action="index.html">
+					<label for="size">Size</label><br>
+					Large:<input type="radio" name="size" id="large" required><br>
+					Medium:<input type="radio" name="size" id="medium" required><br>
+					Small:<input type="radio" name="size" id="small" required><br>
+					<label for="toppings">Toppings</label><br>
+					Extra Pepperoni:<input type="radio" name="toppings" id="pepperoni" required><br>
+					Sardines:<input type="radio" name="toppings" id="sardines" required><br>
+					Pineapples:<input type="radio" name="toppings" id="pineapples" required><br>
+					Mushrooms:<input type="radio" name="toppings" id="mushrooms" required><br>
+					<label for="crust">Type of Crust</label><br>
+					Crispy: <input type="radio" name="crust" id="crispy" required><br>
+					Stuffed: <input type="radio" name="crust" id="stuffed" required><br>
+					Glutten free: <input type="radio" name="crust" id="gluttenFree" required><br>
+					<input type="submit" id="submit" name="submit">
+
+				</form>
+
 			</div>
 		
 		</div>
