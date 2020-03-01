@@ -20,8 +20,6 @@ body, html{
     top: 45%;
     width: 100%;
     text-align:center ;
-    background-color: #111;
-    color: #fff;
     letter-spacing:8px ;
     background-color: #111;
     color: #fff;
@@ -31,4 +29,25 @@ body, html{
 .middle{
     text-align: center;
     background-color: blanchedalmond;
+}
+.middle p{
+
+}
+.img2{
+    background-image: url("../images/mainbackground2.jpg");
+    background-size: cover;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 50%;
+
+}
+.ptext2{
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    color: #000;
 }
