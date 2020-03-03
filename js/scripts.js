@@ -1,32 +1,7 @@
-$(document).ready(function(){
-    $(".button1").click(function(){
-        $(".form1").toggle(); 
-      });
-});
 $("document").ready(function(){
-  function person (name,email,phone){
-      this.name = name;
-      this.email = email;
-      this.phone = phone;
-
-  }
-
-      person.prototype.profile = function(){
-       $("#name").text("Your name is "+this.name)
-       $("#email").text("Your Email address is "+this.email)
-       $("#phone").text("Your Phone number is "+this.phone)
-      }
-
-      $("#profile").click(function(){
-          var name = $(".name").val();
-          var email =$(".Email").val();
-          var phone = $(".phone").val();
-          var location = $(".location").val();
-          var user = new person(name,email,phone,location);
-          user.profile()
-
-      })
-
+  $(".button1").click(function(){
+    $(".form1").toggle(); 
+  });
   function order(size,toppings,number,delivery,type){
       this.size = size;
       this.toppings =toppings;
