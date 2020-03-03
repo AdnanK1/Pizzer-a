@@ -52,7 +52,10 @@
 				<div class="container text-center">
 					<div class="col-lg-4-offset-4">		
 						<button class="button1">Place Order</button>
-						<form class="form1">
+						<div>
+							<p id="order"></p>
+						</div>
+						<form class="form1" action="index.html">
 							<h3>Type of pizza</h3>
 							<select name="select" id="select">
 								<option value=""></option>
@@ -64,26 +67,53 @@
 								<option value="bbq">BBQ Chicken Pizza</option>
 							</select>
 							<h3>Size</h3>
-							Large:<input type="radio" name="size" id="large" required>
-							Medium:<input type="radio" name="size" id="medium" required>
-							Small:<input type="radio" name="size" id="small" required>
+							<select id="size">
+								<option value=""></option>
+								<option value="small">Small-Ksh.500</option>
+								<option value="Medium">Medium-Ksh.800</option>
+								<option value="Large">Large-Ksh.1100</option>
+							</select>
+							<br><br>
 							<h3>Toppings</h3>
-							Pepperoni:<input type="radio" name="toppings" id="pepperoni" required>
-							Sardines:<input type="radio" name="toppings" id="sardines" required>
-							Pineapples:<input type="radio" name="toppings" id="pineapples" required>
-							Mushrooms:<input type="radio" name="toppings" id="mushrooms" required>
-							<h3>Type of Crust</h3>
-							Crispy: <input type="radio" name="crust" id="crispy" required>				Stuffed: <input type="radio" name="crust" id="stuffed" required>
-							Glutten free: <input type="radio" name="crust" id="gluttenFree" required>
-							<h3>Do you require delivery</h3>
-							<input type="radio" name="delivery" id="yes" required>Yes <br>
-							<input type="radio" name="delivery" id="no"required>No <br>
-							If so enter address: <input type="text" name="delivery" id="address">
-							<button class="button7">Order Placed</button>
+							<select class="toppings">
+								<option value=""></option>
+								<option value="pepparoni">Pepperoni and cheese-Ksh.300</option>
+								<option value="BBQ">Chicken and BBQ sauce-Ksh.300</option>
+								<option value="Bacon">Bacon and pineapple-Ksh.300</option>
+								<option value="pineapple">Pineapple and black olives-Ksh.300</option>
+								<option  value="Sausage">Sausage and Bacon-ksh.300</option>
+							</select>
+							<br><br>
+							<h3>Crust</h3>
+							<select class="crust">
+								<option value=""></option>
+								<option value="GlutenFree">Gluten_Free</option>
+								<option value="Thick">Thick</option>
+								<option value="Crispy">Crispy</option>
+								<option value="stuffed">Stuffed</option>
+							
+							</select>
+							<br><br>
+							No.<input type="number" class="number">
+							<br><br>
+							<button type="button" class="button7">Calculate</button>
+							<p>Your choices on delivery are <em>hand delivered </em> or <em>proceed to<br> the restaurant </em>to receive it yourself,Thank you</p>
+							</form>
+							</div>
+									<div id="price">
+									<h3><u>TOTAL</u></h3>
+									<p id="name"></p>
+									<p id="email"></p>
+									<p id="phone"></p>
+									<p id="location"></p>
+									<p id="details"></p>
+								</div>
 						</form>
 					</div>
 				</div>
-		</div>
+				
+			</div>
+			
 	</section>
 	<div class="img2">
 		<div class="ptext2">
